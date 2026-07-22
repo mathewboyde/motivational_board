@@ -115,7 +115,7 @@ $(document).ready(function(){
 			for(let z = 0; z < use_arr.length; z++) {
 				this.statements.push(prep_text + use_arr[z]);
 			}
-			for(let z = 0; z < 15; z++) {
+			for(let z = 0; z < 20; z++) {
 				let rand_index = this.get_rand(0, this.statements.length - 1);
 				let rand_size = this.get_rand(0, 2);
 				let rand_pos_x = this.get_rand(0, 10) * 0.1;
