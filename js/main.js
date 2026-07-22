@@ -4,9 +4,9 @@ $(document).ready(function(){
 	$("#main_canvas")[0].width = ww;
 	$("#main_canvas")[0].height = wh;
 	var font_sizes = [
-		0.025 * ww,
-		0.045 * ww,
-		0.065 * ww,
+		0.03 * ww,
+		0.05 * ww,
+		0.07 * ww,
 	];
 	const arr_english = [
 		"adaptable", "adventurous", "affectionate", "amazing", "artistic", 
