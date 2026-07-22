@@ -1,0 +1,48 @@
+html, body, #main {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#main {
+	position: absolute;
+}
+canvas {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+#language_control {
+	display: flex;
+	flex-direction: column;
+	padding: 0 1vw;
+	justify-content: center;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: 10vw;
+	width: 50vw;
+	border: solid 1px black;
+	border-bottom: none;
+	border-right: none;
+	border-top-left-radius: 16px;
+	background: white;
+}
+select {
+	font-size: 2vw;
+	height:50%;
+	padding:0 1vw;
+}
+@media screen and (min-width: 800px) {
+	#language_control {
+		padding: 0 1vw;
+		height: 5vw;
+		width: 20vw;
+	}
+	select {
+		font-size: 1vw;
+		height:50%;
+		padding:0 1vw;
+	}
+}
