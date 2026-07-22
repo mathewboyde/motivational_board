@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script type="text/javascript" language="JavaScript" src="js/jquery.js"></script>
+		<script type="text/javascript" language="JavaScript" src="js/main.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+		<title>Motivational Board</title>
+		<style>
+			html, body, #main {
+				height: 100%;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			#main {
+				position: absolute;
+			}
+			canvas {
+				display: block;
+				margin: 0 auto;
+				padding: 0;
+			}
+			#language_control {
+				display: flex;
+				flex-direction: column;
+				padding: 0 1vw;
+				justify-content: center;
+				margin: 0 auto;
+				position: fixed;
+				bottom: 0;
+				right: 0;
+				height: 5vw;
+				width: 20vw;
+				border: solid 1px black;
+				border-bottom: none;
+				border-right: none;
+				border-top-left-radius: 16px;
+				background: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="main">
+		<canvas id="main_canvas" height="500" width="700"></canvas>
+		</div>
+		<div id="language_control">
+			<select id="language_change">
+				<option value="english" selected>english</option>
+				<option value="french">french</option>
+				<option value="spanish">spanish</option>
+			</select>
+		</div>
+	</body>
+</html>
